@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harvy.almeidaquiz1.Main4Activity">
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="102dp"
+        android:layout_height="47dp"
+        android:onClick="Home"
+        android:text="Home"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="448dp"
+        android:layout_alignBottom="@+id/btnIS"
+        android:layout_alignLeft="@+id/bodyIT"
+        android:layout_alignStart="@+id/bodyIT" />
+
+    <Button
+        android:id="@+id/btnCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ComSci"
+        android:text="CS Program"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_alignBaseline="@+id/btnIS"
+        android:layout_alignBottom="@+id/btnIS"
+        android:layout_toRightOf="@+id/btnIS"
+        android:layout_toEndOf="@+id/btnIS" />
+
+    <Button
+        android:id="@+id/btnIS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="InfoSys"
+        android:text="IS Program"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/headerIT"
+        android:layout_width="310dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="91dp"
+        android:text="BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY"
+        android:textColor="#f6c349"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:id="@+id/bodyIT"
+        android:layout_width="326dp"
+        android:layout_height="29dp"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="97dp"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/headerIT1"
+        android:layout_alignLeft="@+id/headerIT"
+        android:layout_alignStart="@+id/headerIT" />
+
+    <TextView
+        android:id="@+id/headerIT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/headerIT"
+        android:layout_alignBottom="@+id/headerIT"
+        android:layout_toEndOf="@+id/headerIT"
+        android:layout_toRightOf="@+id/headerIT"
+        android:text="(4 years)"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/bodyIT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under this program, the students are trained to be well versed in the practical and technical know-how of installing/setting-up of computers and computer networks. Special skills taught include troubleshooting and repairing of hardware components."
+        android:textAlignment="center"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="245dp"
+        android:layout_below="@+id/headerIT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="94dp" />
+
+</RelativeLayout>

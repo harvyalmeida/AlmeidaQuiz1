@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harvy.almeidaquiz1.Main2Activity">
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="102dp"
+        android:layout_height="47dp"
+        android:onClick="Home"
+        android:text="Home"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="448dp"
+        android:layout_alignTop="@+id/btnIT"
+        android:layout_alignLeft="@+id/bodyCS"
+        android:layout_alignStart="@+id/bodyCS"
+        />
+
+    <Button
+        android:id="@+id/btnIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="InfoTech"
+        android:text="IT Program"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_alignBaseline="@+id/btnIS"
+        android:layout_alignBottom="@+id/btnIS"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnIS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="InfoSys"
+        android:text="IS Program"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/bodyCS"
+        android:layout_alignEnd="@+id/bodyCS"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:id="@+id/headerCS"
+        android:layout_width="310dp"
+        android:layout_height="16dp"
+        android:text="BACHELOR OF SCIENCE IN COMPUTER SCIENCE"
+        android:textColor="#f6c349"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp" />
+
+    <TextView
+        android:id="@+id/bodyCS"
+        android:layout_width="326dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/headerCS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/headerCS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4 years)"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_alignBaseline="@+id/headerCS"
+        android:layout_alignBottom="@+id/headerCS"
+        android:layout_alignRight="@+id/headerCS"
+        android:layout_alignEnd="@+id/headerCS" />
+
+    <TextView
+        android:id="@+id/bodyCS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students under the BS Computer Science program are highly trained for software and system development. The program’s main focus is to expose the students to different approaches and styles in developing programs whether they are procedural or the object oriented type of system approach."
+        android:textAlignment="center"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="245dp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/bodyCS"
+        android:layout_alignRight="@+id/bodyCS"
+        android:layout_alignEnd="@+id/bodyCS"
+        android:layout_alignLeft="@+id/bodyCS"
+        android:layout_alignStart="@+id/bodyCS" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:text="BACHELOR OF SCIENCE IN COMPUTER SCIENCE"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView5"
+        android:layout_toStartOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="35dp"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities \n
+Students under the BS Computer Science program are highly trained for software and system development. The program’s main focus is to expose the students to different approaches and styles in developing programs whether they are procedural or the object oriented type of system approach."
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignEnd="@+id/button6"
+        android:layout_alignRight="@+id/button6"
+        android:text="(4 years)"
+        android:textColor="@android:color/black"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

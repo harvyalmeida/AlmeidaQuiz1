@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harvy.almeidaquiz1.Main3Activity">
+
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="102dp"
+        android:layout_height="47dp"
+        android:onClick="Home"
+        android:text="Home"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="448dp"
+        android:layout_alignBottom="@+id/btnIT"
+        android:layout_toLeftOf="@+id/btnIT"
+        android:layout_toStartOf="@+id/btnIT" />
+
+    <Button
+        android:id="@+id/btnCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ComSci"
+        android:text="CS Program"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_alignBaseline="@+id/btnIT"
+        android:layout_alignBottom="@+id/btnIT"
+        android:layout_toRightOf="@+id/btnIT"
+        android:layout_toEndOf="@+id/btnIT" />
+
+    <Button
+        android:id="@+id/btnIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="InfoTech"
+        android:text="IT Program"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="447dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/headerIS"
+        android:layout_width="310dp"
+        android:layout_height="16dp"
+        android:text="BACHELOR OF SCIENCE IN INFORMATION SYSTEMS"
+        android:textColor="#f6c349"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_alignBottom="@+id/headerIS1"
+        android:layout_alignLeft="@+id/bodyIS"
+        android:layout_alignStart="@+id/bodyIS" />
+
+    <TextView
+        android:id="@+id/bodyIS"
+        android:layout_width="326dp"
+        android:layout_height="29dp"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="97dp"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/bodyIS1"
+        android:layout_alignRight="@+id/headerIS1"
+        android:layout_alignEnd="@+id/headerIS1" />
+
+    <TextView
+        android:id="@+id/headerIS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4 years)"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnCS"
+        android:layout_alignEnd="@+id/btnCS" />
+
+    <TextView
+        android:id="@+id/bodyIS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students under the BS Information Systems program are trained to handle the managerial side of computer related activities. The focus of the program is effective management of resources – people, money, and computer facilities, especially in areas involving accounting, projections/estimates/feasibility studies, and the like."
+        android:textAlignment="center"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="245dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
